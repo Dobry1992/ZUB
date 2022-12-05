@@ -1,0 +1,16 @@
+﻿<Window x:Class="ZUB.ZUBGeometryI"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ZUBGeometryI" Height="379" Width="345" Icon="/ZUB;component/Images/icon.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock Height="261" HorizontalAlignment="Left" Name="textBlock1" Text="" VerticalAlignment="Top" Width="323" FontSize="14" FontFamily="Arial" Background="Azure" />
+        <Canvas Height="30" HorizontalAlignment="Left" Margin="12,282,0,0" Name="button1" VerticalAlignment="Top" Width="138" MouseEnter="button1_MouseEnter" MouseLeave="button1_MouseLeave" MouseDown="button1_MouseDown" Cursor="Hand">
+            <Rectangle Canvas.Left="0" Canvas.Top="0" Height="30" Name="rectangle1" Stroke="#FFD8323B" Width="138" RadiusX="10" RadiusY="10" Fill="#FFD8323B" />
+            <Label Canvas.Left="0" Canvas.Top="0" Content="Назад" Height="30" Name="label1" Width="138" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Arial" FontSize="16" Foreground="White" />
+        </Canvas>
+        <Canvas Cursor="Hand" Height="30" HorizontalAlignment="Left" Margin="173,282,0,0" Name="canvas1" VerticalAlignment="Top" Width="138" MouseDown="canvas1_MouseDown" MouseEnter="canvas1_MouseEnter" MouseLeave="canvas1_MouseLeave">
+            <Rectangle Canvas.Left="0" Canvas.Top="0" Fill="#FFD8323B" Height="30" Name="rectangle2" RadiusX="10" RadiusY="10" Stroke="#FFD8323B" Width="138" />
+            <Label Canvas.Left="0" Canvas.Top="0" Content="Сохранить" FontFamily="Arial" FontSize="16" Foreground="White" Height="30" HorizontalContentAlignment="Center" Name="label2" VerticalContentAlignment="Center" Width="138" />
+        </Canvas>
+    </Grid>
+</Window>

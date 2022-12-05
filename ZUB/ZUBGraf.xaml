@@ -1,0 +1,23 @@
+﻿<Window x:Class="ZUB.ZUBGraf"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ZUBGraf" Height="405" Width="635" Icon="/ZUB;component/Images/icon.png" WindowStartupLocation="CenterScreen">
+    <Grid Height="365" Name="grid1" Width="615" Background="Beige">
+        <Label Content="Модуль = " Height="28" HorizontalAlignment="Left" Margin="12,327,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="77,328,0,0" Name="textBox1" VerticalAlignment="Top" Width="47" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="1" />
+        <Label Content="Z1 =" Height="28" HorizontalAlignment="Left" Margin="130,327,0,0" Name="label2" VerticalAlignment="Top" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="171,332,0,0" Name="slider1" VerticalAlignment="Top" Width="120" Value="1" Minimum="1" Maximum="100" ValueChanged="slider1_ValueChanged" />
+        <Label Content="Z2 =" Height="28" HorizontalAlignment="Left" Margin="360,327,0,0" Name="label3" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="297,330,0,0" Name="textBox2" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="47" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="401,330,0,0" Maximum="100" Minimum="1" Name="slider2" Value="1" VerticalAlignment="Top" Width="120" ValueChanged="slider2_ValueChanged" />
+        <TextBox Height="23" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="525,330,0,0" Name="textBox3" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="47" />
+        <Line Name="line3" X1="30" Y1="40" X2="30" Y2="300" Stroke="Black" StrokeThickness="2" />
+        <Line Name="line4" X1="30" Y1="182" X2="575" Y2="182" Stroke="Black" StrokeThickness="2"/>
+        <Label Content="a" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label4" VerticalAlignment="Top" FontSize="14" />
+        <Label Content="Бетта" FontSize="14" Height="28" HorizontalAlignment="Left" Margin="554,188,0,0" Name="label5" VerticalAlignment="Top" />
+        <Label Content="Изменение межосевого расстояния в зависимости от угла наклона зубьев" FontSize="14" Height="28" HorizontalAlignment="Left" Margin="77,0,0,0" Name="label6" VerticalAlignment="Top" Width="492" />
+        <Label Content="Правое направление" Height="136" HorizontalAlignment="Left" Margin="30,46,0,0" Name="label7" VerticalAlignment="Top" Width="542" Foreground="Silver" FontFamily="Arial" FontSize="28" Opacity="0.7" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <Label Content="Левое направление" FontFamily="Arial" FontSize="28" Foreground="Silver" Height="115" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="30,185,0,0" Name="label8" Opacity="0.7" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="542" />
+        <Canvas Height="325" HorizontalAlignment="Left" Margin="-1,0,0,0" Name="canvas1" VerticalAlignment="Top" Width="615" />
+    </Grid>
+</Window>
